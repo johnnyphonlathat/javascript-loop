@@ -3,5 +3,7 @@ let companyName = "TechUp Thailand";
 let reversedCompanyName = "";
 
 // Start coding here
-
+for (let i=0; i < companyName.length; i=i+1) {
+     (reversedCompanyName += companyName[companyName.length - 1 - i])
+};
 console.log(reversedCompanyName);
